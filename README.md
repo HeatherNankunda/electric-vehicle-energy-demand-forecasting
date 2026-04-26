@@ -44,7 +44,7 @@ The dataset contains information about EV charging stations including:
 ## 🚀 How to Run
 
 1. Clone the repository:
-   git clone https://github.com/your-username/ev-energy-demand-forecasting.git
+   git clone https://github.com/HeatherNankunda/electric-vehicle-energy-demand-forecasting.git
 
 2. Install dependencies:
    pip install -r requirements.txt
