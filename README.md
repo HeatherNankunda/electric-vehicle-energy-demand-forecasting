@@ -2,14 +2,15 @@
 
 ## 📌 Project Overview
 
-This project analyzes Electric Vehicle (EV) charging infrastructure data to understand and predict energy demand patterns. The study uses machine learning models to classify demand levels based on charger availability and location characteristics.
+This project analyzes Electric Vehicle (EV) charging infrastructure data to understand and predict energy consumption patterns at municipal charging sites. Unlike traditional categorical studies, this research employs Supervised Machine Learning Regression—specifically Random Forest and Neural Network architectures—to forecast the exact Energy Provided (kWh) for each charging session. By modeling the relationship between charging duration, geographical location, and temporal variables, this study provides actionable insights for grid stability management and urban infrastructure planning in transitioning energy markets like Uganda.
 
 ## 🎯 Objectives
 
-* Perform exploratory data analysis (EDA)
-* Visualize EV charging patterns
-* Predict energy demand levels using ML models
-* Compare classical ML and neural network performance
+* Data Description
+* Data Exploration and Visualization
+* Data cleaning and Preparation
+* Modelling and Evaluation
+* Summary
 
 ## 📊 Dataset
 
@@ -18,6 +19,12 @@ The dataset contains information about EV charging stations including:
 * Charger counts (Level 1, Level 2, DC Fast)
 * Location 
 * Facility information
+
+## Requiremnts
+* pandas
+* scikit-learn
+* gradio
+* joblib
 
 ## ⚙️ Methods
 
